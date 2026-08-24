@@ -4,6 +4,15 @@
 Storage. It never exports secrets and does not write plaintext secret values to
 disk.
 
+> [!IMPORTANT]
+> Turnkey Secret Storage must be enabled for the organization before using this
+> CLI. Turnkey operators can enable it with the `FEATURE_FLAG_SECRETS` feature
+> flag, for example:
+>
+> ```sh
+> tkinfra feature-flag allow --flag FEATURE_FLAG_SECRETS --org <ORG ID> -e dev
+> ```
+
 ## Development
 
 The repository flake provides all build and test tools:
