@@ -6,12 +6,9 @@ disk.
 
 > [!IMPORTANT]
 > Turnkey Secret Storage must be enabled for the organization before using this
-> CLI. Turnkey operators can enable it with the `FEATURE_FLAG_SECRETS` feature
-> flag, for example:
+> CLI. Turnkey operators can enable it with the `FEATURE_FLAG_SECRETS_API` feature
+> flag.
 >
-> ```sh
-> tkinfra feature-flag allow --flag FEATURE_FLAG_SECRETS --org <ORG ID> -e dev
-> ```
 
 ## Development
 
