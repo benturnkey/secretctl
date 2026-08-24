@@ -1,0 +1,6 @@
+/result
+/secretctl
+/.direnv
+/.envrc
+*.test
+coverage.out
